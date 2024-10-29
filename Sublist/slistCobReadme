@@ -1,0 +1,15 @@
+echo This GNU-COBOL script computes the sublist (S) of a list (L) begining from the first prime number and ending at the last perfect square and cubing all the numbers included in between the two. Should conditions be absent for creating this an empty sublist is returned. Below is an example of what you would write to run the program, the program will run afterwards
+
+echo Below is an example of what you would write to run the program, the program will run afterwards
+echo Usage:
+echo  cobc --debug -free -x -o slist slist.cob
+echo ./slist
+echo 5
+echo 4
+echo 3
+echo 6
+echo 8
+echo 9
+cobc --debug -free -x -o slist slist.cob
+./slist
+rm slist
