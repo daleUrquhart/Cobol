@@ -1,0 +1,16 @@
+This GNU-COBOL script computes and prints the factorial of a hardcoded value (@ NUMB) 
+Below is an example of what you would write to run the program and the resulting output for a NUMB value of 9 (Default value)
+
+Usage:
+cobc --debug -free -x -o factorial factorial.cob
+./factorial 
+9!=362880
+000001
+000002
+000006
+000024
+000120
+000720
+005040
+040320
+362880
