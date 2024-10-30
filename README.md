@@ -1,6 +1,4 @@
 # Cobol
-Cobol
-
 A collection of exercises and projects written in the Cobol programming language.
 
 ## Factorial
