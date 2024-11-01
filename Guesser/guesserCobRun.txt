@@ -1,0 +1,35 @@
+Enter the number of arrays, guesses, and array sizes will be determined from this value. Afterwards begin guessing numbers within any of the arrays created. If the value guessed is in an array you will be shown the array. Once you have found all the arays you win. If you reach the maximum amount of alloted failed guesses, you loose. You may also win by guessing all of the numbers.
+
+Below is an example of what you would write to run the program, the program will run afterwards
+Usage:
+./guesser.php
+10
+0
+
+Enter a number: 10
+Enter your guess:0
+Array 0: 
+0 1 2 3 4 5 6 7 8 9 10 
+Array 1: 
+0 13 14 15 16 17 18 19 20 21 22 
+Array 2: 
+0 25 26 27 28 29 30 31 32 33 34 
+Array 3: 
+0 37 38 39 40 41 42 43 44 45 46 
+Array 4: 
+0 49 50 51 52 53 54 55 56 57 58 
+Array 5: 
+0 61 62 63 64 65 66 67 68 69 70 
+Array 6: 
+0 73 74 75 76 77 78 79 80 81 82 
+Array 7: 
+0 85 86 87 88 89 90 91 92 93 94 
+Array 8: 
+0 97 98 99 100 101 102 103 104 105 106 
+Array 9: 
+0 109 110 111 112 113 114 115 116 117 118 
+Array 10: 
+0 121 122 123 124 125 126 127 128 129 130 
+Nice guess you found 11 arrays!
+Congratulations! You've guessed all numbers/arrays correctly.
+

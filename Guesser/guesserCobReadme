@@ -1,0 +1,12 @@
+#!/usr/bin/bash
+echo Enter a numbre x, your number of arrays, guesses, and array sizes will be determined from this value. Afterwards begin guessing numbers which might be contained in any of the arrays creted f the value guessed is in an array you will be shown the array. Once you have found all the arays you win. If you reach the maximum amount of alloted failed guesses you loose. You may also win by guessing all of the numbers.
+echo 
+echo Below is an example of what you would write to run the program, the program will run afterwards
+echo Usage:
+echo cobc --debug -free -x -o guesser guesser.cob
+echo ./guesser
+echo 10
+echo 0
+cobc --debug -free -x -o guesser guesser.cob
+./guesser
+rm guesser
